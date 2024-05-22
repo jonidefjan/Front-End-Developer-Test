@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Creative Content Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Design Decisions](#design-decisions)
+- [Web Development Laws Applied](#web-development-laws-applied)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## Available Scripts
+## Project Overview
+The Creative Content Platform is a web application designed to showcase various types of creative content such as games, videos, artwork, and music. The platform provides a user-friendly interface where users can browse, search, and view detailed information about each piece of content.
 
-In the project directory, you can run:
+## Features
+- Responsive homepage displaying a grid of content cards
+- Detailed content page with a larger image/video player, title, description, and user rating
+- Top navigation bar with links to different content categories
+- Search functionality to filter content by title or category
+- Visually appealing design with a consistent theme
 
-### `npm start`
+## Technologies Used
+- **Frontend**: React, React Router DOM, Styled-components
+- **Backend**: Mock data (for demonstration purposes)
+- **CSS**: SASS, CSS Grid, Flexbox
+- **Tools**: Create React App, Git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
+1. Clone the repository from GitHub.
+2. Navigate to the project directory.
+3. Install the dependencies.
+4. Start the development server.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
+1. Open your browser and navigate to `http://localhost:3000`.
+2. Browse the homepage to view the grid of content cards.
+3. Click on a content card to view detailed information.
+4. Use the navigation bar to switch between different content categories.
+5. Use the search bar to filter content by title or category.
 
-### `npm test`
+## Design Decisions
+- **Responsive Design**: Ensured the application is responsive and works well on both desktop and mobile devices using CSS Grid and Flexbox.
+- **Color Palette**: Chose a color palette that enhances readability and aligns with the creative theme of the platform. 
+  - Primary Color: `#3498db`
+  - Secondary Color: `#2ecc71`
+  - Accent Color: `#e74c3c`
+- **Font Selection**: Selected fonts that are easy to read and contribute to the overall aesthetic of the platform.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Web Development Laws Applied
+- **Law of Proximity**: Grouped related content together to improve usability and navigation.
+- **Law of Common Region**: Used borders and background colors to visually separate different sections of the content.
+- **Fitts’s Law**: Designed interactive elements (e.g., buttons, links) to be easily clickable and accessible.
+- **Hick’s Law**: Simplified navigation and search functionality to reduce decision-making time for users.
 
-### `npm run build`
+## Contributing
+Contributions are welcome! If you would like to contribute to this project, please follow these steps:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit them (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a pull request.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contact
+**Jonatas Mattos**
+- Email: [jonidefjan@gmail.com](mailto:jonidefjan@gmail.com)
+- Phone: +55 11 9 8330 7963
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to reach out if you have any questions or suggestions.
